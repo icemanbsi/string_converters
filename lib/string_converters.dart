@@ -18,7 +18,7 @@ String toUpperCaseWith(String text, String sign) {
   } else {
     //varName, Title, ClassName
     List letters = "${text}".split("");
-    for (num i = 0; i < letters.length; i++) {
+    for (int i = 0; i < letters.length; i++) {
       String letter = letters[i];
       bool isBig = letter == letter.toUpperCase();
       if (isBig) {
@@ -59,7 +59,7 @@ String toLowerCaseWith(String text, String sign) {
   } else {
     //varName, Title, ClassName
     List letters = "${text}".split("");
-    for (num i = 0; i < letters.length; i++) {
+    for (int i = 0; i < letters.length; i++) {
       String letter = letters[i];
       bool isBig = letter == letter.toUpperCase();
       if (isBig) {
